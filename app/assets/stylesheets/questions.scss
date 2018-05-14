@@ -1,0 +1,38 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.container {
+  text-align: center;
+}
+
+#title {
+  color: red;
+  padding-top: 50px;
+}
+
+#question {
+  width: 300px;
+  text-align: left;
+}
+
+#answer {
+  width: 300px;
+  text-align: left;
+}
+
+#questions {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(214, 207, 207);
+}
+
+#end_link {
+  text-align: left;
+  padding-top: 50px
+}
+
+#like_our_game {
+  text-align: left;
+  padding-top: 30px
+}

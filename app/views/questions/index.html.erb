@@ -1,0 +1,8 @@
+
+<ul>
+  <% @questions.each do |id, question| %>
+    <li><%= question[:question] %> (<%= question[:answer] %>)</li>
+  <% end %>
+</ul>
+
+<%= link_to "Ask a question", root_path %>
